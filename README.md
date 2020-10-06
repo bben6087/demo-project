@@ -2,7 +2,7 @@
 
 ## Firebase
 
-## Stephen Burke: (Insert Topic here)
+## Stephen Burke: (Functions)
 
 ## Blake Bennett: (Analytics)
 
