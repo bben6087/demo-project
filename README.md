@@ -6,7 +6,7 @@
 
 ## Blake Bennett: (Analytics)
 
-## Samuel Ritter: (Insert Topic here)
+## Samuel Ritter: (Develop)
 
 ## Zach Watson: (Insert Topic here)
 
