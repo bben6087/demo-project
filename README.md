@@ -4,7 +4,7 @@
 
 ## Stephen Burke: (Insert Topic here)
 
-## Blake Bennett: (Insert Topic here)
+## Blake Bennett: (Analytics)
 
 ## Samuel Ritter: (Insert Topic here)
 
