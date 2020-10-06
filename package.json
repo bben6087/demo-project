@@ -1,0 +1,84 @@
+{
+  "name": "44-563-webapps-syllabus",
+  "version": "1.0.0",
+  "description": "Northwest Missouri State University 44-563 Syllabus, a progressive web app",
+  "keywords": [
+    "syllabus",
+    "webapps",
+    "html",
+    "css",
+    "javascript",
+    "pwa",
+    "lighthouse-badges",
+    "codacy-badge",
+    "eslint",
+    "prettier",
+    "husky"
+  ],
+  "homepage": "https://www.nwmissouri.edu/csis/directory/case.htm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denisecase/44-563-webapps-syllabus"
+  },
+  "license": "MIT",
+  "author": "Denise Case",
+  "scripts": {
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix .",
+    "prettier": "prettier --write .",
+    "sort": "npx sort-package-json",
+    "test": "npx lighthouse-badges --urls https://denisecase.github.io/44-563-webapps-syllabus/ -o test_results"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && npm run sort && npm run lint-fix",
+      "pre-push": "echo not running tests"
+    }
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es2020": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 11,
+      "sourceType": "module"
+    },
+    "extends": [
+      "airbnb-base"
+    ],
+    "rules": {
+      "no-console": [
+        "error",
+        {
+          "allow": [
+            "warn",
+            "error"
+          ]
+        }
+      ],
+      "import/extensions": 0
+    },
+    "globals": {
+      "found": true,
+      "google": true,
+      "workbox": true
+    }
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-import": "latest",
+    "husky": "latest",
+    "prettier": "latest",
+    "prettier-eslint": "latest",
+    "pretty-quick": "latest",
+    "sort-package-json": "latest"
+  }
+}

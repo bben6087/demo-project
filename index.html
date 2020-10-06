@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!--  establish early connections to important third-party origins -->
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+    <link rel="preconnect" href="https://storage.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://use.fontawesome.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Put Google Analytics immediately after head tag -->
+    <!-- Google Analytics -->
+    <script>
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga('create', 'UA-145064908-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <!-- End Google Analytics -->
+
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#006747" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" href="./favicon.ico" />
+    <link
+      rel="canonical"
+      href="https://profcase.github.io/44-563-webapps-syllabus/"
+    />
+    <title>44-563 Web Apps</title>
+    <meta
+      name="description"
+      content="Syllabus for NWMSU 44-563 Developing Web Apps and Services Course"
+    />
+    <meta name="author" content="Denise Case" />
+    <meta name="msapplication-TileColor" content="#006747" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon_io/favicon-16x16.png"
+    />
+
+    <!-- https://mdbootstrap.com/docs/standard/getting-started/installation/ -->
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <!-- Add defer for improved performance -->
+
+    <!-- Font Awesome -->
+    <link
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0-alpha3/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom styles -->
+    <link
+      rel="stylesheet"
+      href="https://denisecase.github.io/44-517-bigdata-syllabus/styles/case-syllabus.css"
+    />
+
+    <!-- Service worker -->
+    <!-- If the browser (navigator) enables service workers, then after loading, register -->
+    <!-- Use chrome://inspect/#service-workers to inspect -->
+    <script src="./scripts/register-sw.js"></script>
+
+    <!-- Security Note -->
+    <!-- When adding links, use rel="noopener" to prevent linked page from being able to access window.opener property. -->
+    <!-- This ensures the new page will run in a separate process. -->
+  </head>
+
+  <body>
+    <nw-syllabus-header
+      shortNum="44-563"
+      courseURL="https://nwmissouri.instructure.com/courses/32472"
+    >
+    </nw-syllabus-header>
+
+    <!-- Main area: Add 'context' class for area subject to search marking -->
+    <!-- mt-5 is a Material Design Bootstrap class - it means 'margin top level 5 (the biggest)' -->
+
+    <main class="container context mt-5">
+      <!-- Main grid container-->
+      <div class="row">
+        <div class="col">
+          <img
+            width="154"
+            height="154"
+            src="images/northwestlogo.jpg"
+            alt="Northwest Logo"
+            class="img-thumbnail mt-5 mb-3"
+          />
+
+          <h1 class="mt-5">44-563 Course Syllabus</h1>
+
+          <br />
+          <br />
+
+          <h2>Area</h2>
+
+          School of Computer Science and Information Systems
+
+          <h2>Course Title</h2>
+
+          44-563 Developing Web Apps and Services
+
+          <h2>Course Credit</h2>
+
+          3 hours
+
+          <h2>Placement in Curriculum</h2>
+
+          This course is typically offered in the later years of an
+          undergraduate degree and early, often first semester, in a graduate
+          program.
+
+          <h2>Prerequisites</h2>
+
+          Undergraduate prerequisites: CSIS 44241 and CSIS 44460, each with a
+          grade of C or better. Graduate prerequisite: CSIS 44542 with a grade
+          of B or better, or concurrent enrollment in CSIS 44542, or consent of
+          instructor. (F,S)
+
+          <h2>Section Details</h2>
+
+          Fall 2020 - Section 2
+          <br />
+          MWF 11-11:50am CH 1200
+
+          <nw-syllabus-professor></nw-syllabus-professor>
+
+          <h2>Course Description</h2>
+
+          Technologies and protocols supporting web applications and web
+          services. Students gain experience in client-side and server-side
+          programming.
+
+          <h2>Course Rationale</h2>
+
+          This course involves an overview of Internet communications and
+          developing applications for the World Wide Web. The course covers web
+          application design, development, and scripting through hands-on,
+          creative implementation exercises using modern tools and techniques
+          for building professional, dynamic, interactive web applications.
+
+          <h2>Student Learning Outcomes</h2>
+
+          <table class="table table-bordered" id="program-outcomes">
+            <thead class="thead-dark">
+              <tr class="d-flex">
+                <th class="col-3">Competency</th>
+                <th class="col-2">Program</th>
+                <th class="col-4">Program Outcome</th>
+                <th class="col-3">Assessment</th>
+              </tr>
+            </thead>
+            <tr class="d-flex">
+              <td class="col-3">Critical Thinking</td>
+              <td class="col-2">DM-CS</td>
+              <td class="col-4">
+                An ability to analyze a problem, and to identify and define the
+                requirements appropriate to its solution.
+              </td>
+              <td class="col-3">Selected assignments</td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-3">Critical Thinking</td>
+              <td class="col-2">DM-CS</td>
+              <td class="col-4">
+                An ability to design, implement, and evaluate a computer-based
+                solution to meet a given set of requirements in the context of
+                the discipline.
+              </td>
+              <td class="col-3">Selected assignments</td>
+            </tr>
+            <tr class="d-flex">
+              <td class="col-3">Teamwork</td>
+              <td class="col-2">DS-CS</td>
+              <td class="col-4">
+                DSI Students will work as a team to design, implement, and
+                deliver solutions to problems using best practices with
+                contemporary technologies.
+              </td>
+              <td class="col-3">Selected assignments</td>
+            </tr>
+          </table>
+
+          <p>Additional student learning outcomes include:</p>
+          <nw-syllabus-outcomes-list></nw-syllabus-outcomes-list>
+
+          <h2>Materials</h2>
+
+          <h3>Free Online Textbooks</h3>
+
+          <ul class="text-left">
+            <li>
+              Mozilla Developer Network:
+              <a
+                rel="noopener"
+                target="_blank"
+                href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web"
+              >
+                Getting Started with the Web</a
+              >
+            </li>
+            <li>
+              <a
+                rel="noopener"
+                target="_blank"
+                href="https://eloquentjavascript.net/"
+              >
+                Eloquent JavaScript</a
+              >
+              by Marijn Haverbeke
+            </li>
+          </ul>
+
+          <h3>Supplementary textbooks (recommended)</h3>
+
+          <ul class="text-left">
+            <li>
+              Simplifying JavaScript: Writing Modern JavaScript with ES5, ES6,
+              and Beyond by Joe Morgan
+            </li>
+            <li>
+              Programming in HTML5 with JavaScript and CSS3 Exam Ref 70-480 by
+              Rick Delorme
+            </li>
+            <li>
+              Express in Action: Writing, building, and testing Node.js
+              applications by Evan Hahn
+            </li>
+            <li>Web development with Node and Express by Ethan Brown</li>
+            <li>Progressive Web Apps by Dean Alan Hume</li>
+            <li>
+              Nest.js: A Progressive Node.js Framework by David Guijarro, Adrien
+              de Peretti, Patrick Housley, Greg Magolan, Jay Bell
+            </li>
+          </ul>
+
+          <h3>Required</h3>
+
+          <p>
+            Students must have access to the following at every course meeting:
+          </p>
+
+          <div class="form-check">
+            <ul class="list-group" style="list-style-type: none;">
+              <li
+                id="101"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                A <strong>bound notebook with pencil/pen</strong> for taking
+                notes and submitting written content (e.g., pop quizzes)
+              </li>
+              <li
+                id="102"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Their campus-assigned laptop, in working order, with all
+                required software
+              </li>
+              <li
+                id="103"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Free
+                <a rel="noopener" target="_blank" href="https://git-scm.com/"
+                  >Git</a
+                >
+                distributed version control system
+              </li>
+              <li
+                id="104"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Free
+                <a
+                  rel="noopener"
+                  target="_blank"
+                  href="https://tortoisegit.org/"
+                  >TortoiseGit</a
+                >
+                for integrating Git with Windows File Explorer
+              </li>
+              <li
+                id="105"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Free
+                <a
+                  rel="noopener"
+                  target="_blank"
+                  href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
+                  >PuTTY</a
+                >
+                for creating SSH public/private key pairs
+              </li>
+              <li
+                id="106"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Free
+                <a rel="noopener" target="_blank" href="https://bitbucket.org"
+                  >BitBucket</a
+                >
+                and
+                <a rel="noopener" target="_blank" href="https://github.com/"
+                  >GitHub</a
+                >
+                educational accounts
+              </li>
+              <li
+                id="107"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Free
+                <a
+                  rel="noopener"
+                  target="_blank"
+                  href="https://education.github.com/pack"
+                  >GitHub Education Pack</a
+                >
+                (as needed)
+              </li>
+              <li
+                id="108"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Free
+                <a rel="noopener" target="_blank" href="https://chocolatey.org/"
+                  >Chocolatey</a
+                >
+                package manager for Windows
+              </li>
+              <li
+                id="109"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Free
+                <a
+                  rel="noopener"
+                  target="_blank"
+                  href="https://notepad-plus-plus.org/"
+                  >Notepad++</a
+                >
+                text editor
+              </li>
+              <li
+                id="110"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Free
+                <a
+                  rel="noopener"
+                  target="_blank"
+                  href="https://code.visualstudio.com/"
+                  >Visual Studio Code</a
+                >
+                integrated development environment
+              </li>
+              <li
+                id="111"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Free
+                <a
+                  rel="noopener"
+                  target="_blank"
+                  href="https://www.getpostman.com/"
+                  >Postman</a
+                >
+                Web API Development Environment
+              </li>
+              <li
+                id="112"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Free access to
+                <a rel="noopener" target="_blank" href="https://www.typing.com/"
+                  >Mozilla Developer Network (MDN) and other resources
+                </a>
+              </li>
+              <li
+                id="113"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Various free, open-source tools, libraries, and hosting accounts
+                as directed by instructor.
+              </li>
+              <li
+                id="114"
+                class="requirement-li list-group-item list-group-item-action active"
+              >
+                Free account at
+                <a rel="noopener" target="_blank" href="https://www.typing.com/"
+                  >Typing.com</a
+                >. Typing is a foundational skill for software development.
+              </li>
+            </ul>
+          </div>
+
+          <nw-syllabus-modules-outline> </nw-syllabus-modules-outline>
+          <nw-syllabus-schedule> </nw-syllabus-schedule>
+
+          <h2>Instructional Methods and Techniques</h2>
+
+          Instructional methods include lectures, class discussions, individual
+          work, small group work, learner presentations, discussions, guest
+          speakers, and collaborative development.
+
+          <nw-syllabus-contributions></nw-syllabus-contributions>
+
+          <nw-syllabus-grade-scale-standard></nw-syllabus-grade-scale-standard>
+
+          <nw-syllabus-professor-standard emailSubject="44-563-02">
+          </nw-syllabus-professor-standard>
+
+          <nw-syllabus-nw-standard> </nw-syllabus-nw-standard>
+        </div>
+      </div>
+      <!-- end container -->
+    </main>
+
+    <nw-syllabus-footer
+      siteURL="https://denisecase.github.io/44-563-webapps-syllabus"
+      sourceURL="https://github.com/denisecase/44-563-webapps-syllabus"
+    >
+    </nw-syllabus-footer>
+
+    <!-- SCRIPTS -->
+
+    <!-- Placed at the end so the page loads faster -->
+    <!-- Add the 'defer' attribute for improved performance (script will be read after HTML finishes loading) -->
+
+    <!-- Placed at the end so the page loads faster -->
+    <!-- Add the 'defer' attribute for improved performance (script will be read after HTML finishes loading) -->
+
+    <!-- Copy in content from https://mdbootstrap.com/docs/standard/getting-started/installation/ -->
+
+    <!-- MDB -->
+    <script
+      defer
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0-alpha3/mdb.min.js"
+    ></script>
+
+    <!-- Mark.js -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.es6.min.js"
+      integrity="sha256-51i9DIUkhl5gZzZ5xKiWbJ2qXewVR6W0MUZYPVwmyJ4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google charts-->
+
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!-- Include custom data driven elements -->
+
+    <script
+      defer
+      type="module"
+      src="./custom-elements/nw-syllabus-contributions.js"
+    ></script>
+    <script
+      defer
+      type="module"
+      src="./custom-elements/nw-syllabus-outcomes-list.js"
+    ></script>
+    <script
+      defer
+      type="module"
+      src="./custom-elements/nw-syllabus-outline.js"
+    ></script>
+
+    <!-- Include shared custom elements -->
+
+    <script
+      defer
+      src="https://denisecase.github.io/44-517-bigdata-syllabus/custom-elements/nw-syllabus-footer.js"
+    ></script>
+    <script
+      defer
+      src="https://denisecase.github.io/44-517-bigdata-syllabus/custom-elements/nw-syllabus-grade-scale-standard.js"
+    ></script>
+    <script
+      defer
+      src="https://denisecase.github.io/44-517-bigdata-syllabus/custom-elements/nw-syllabus-header.js"
+    ></script>
+    <script
+      defer
+      src="https://denisecase.github.io/44-517-bigdata-syllabus/custom-elements/nw-syllabus-nw-standard.js"
+    ></script>
+    <script
+      defer
+      src="https://denisecase.github.io/44-517-bigdata-syllabus/custom-elements/nw-syllabus-outline.js"
+    ></script>
+    <script
+      defer
+      src="https://denisecase.github.io/44-517-bigdata-syllabus/custom-elements/nw-syllabus-professor.js"
+    ></script>
+    <script
+      defer
+      src="https://denisecase.github.io/44-517-bigdata-syllabus/custom-elements/nw-syllabus-professor-standard.js"
+    ></script>
+    <script
+      defer
+      src="https://denisecase.github.io/44-517-bigdata-syllabus/custom-elements/nw-syllabus-schedule.js"
+    ></script>
+
+    <!-- Include shared custom scripts -->
+
+    <script
+      defer
+      src="https://denisecase.github.io/44-517-bigdata-syllabus/scripts/active-checks.js"
+    ></script>
+    <script
+      defer
+      src="https://denisecase.github.io/44-517-bigdata-syllabus/scripts/case-syllabus.js"
+    ></script>
+  </body>
+</html>
