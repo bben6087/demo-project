@@ -8,7 +8,7 @@
 
 ## Samuel Ritter: (Develop)
 
-## Zach Watson: (Insert Topic here)
+## Zach Watson: (Performance)
 
 ## Sources
 - 44563 Syllabus page: (We are using it for examples with Firebase) 
