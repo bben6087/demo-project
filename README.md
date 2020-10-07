@@ -4,7 +4,7 @@
 
 ## Stephen Burke: (Functions)
 
-## Blake Bennett: (Analytics)
+## Blake Bennett: (How to get it and install)
 
 ## Samuel Ritter: (Develop)
 
