@@ -12,12 +12,12 @@
   A Google account (You must sign in to Google to access Firebase)
 - Process
 
-  Go to https://firebase.google.com/<br/>
-  Login to your Google account<br/>
-  Once logged in click on Console in the upper left hand corner of the page<br/>
-  Click on new porject and follow the directions<br/>
-  Once created click add an web app in your project<br/>
-  Add the required SDK in your HTML in your text editor<br/>
+   1. Go to https://firebase.google.com/<br/>
+  2. Login to your Google account<br/>
+  3. Once logged in click on Console in the upper left hand corner of the page<br/>
+  4. Click on new porject and follow the directions<br/>
+  5. Once created click add an web app in your project<br/>
+  6. Add the required SDK in your HTML in your text editor<br/>
   
 
 ## Samuel Ritter: (Develop)
