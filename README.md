@@ -5,6 +5,20 @@
 ## Stephen Burke: (Functions)
 
 ## Blake Bennett: (How to get it and install)
+- Prerequisites
+
+  A text Editor (Preferably Notepadd++ or Visual Studio Code, I use VSC)<br/>
+  A working html website (Does not have to be hosted)<br/>
+  A Google account (You must sign in to Google to access Firebase)
+- Process
+
+  Go to https://firebase.google.com/<br/>
+  Login to your Google account<br/>
+  Once logged in click on Console in the upper left hand corner of the page<br/>
+  Click on new porject and follow the directions<br/>
+  Once created click add an web app in your project<br/>
+  Add the required SDK in your HTML in your text editor<br/>
+  
 
 ## Samuel Ritter: (Develop)
 
