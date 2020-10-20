@@ -5,6 +5,7 @@
 ## Stephen Burke: (Functions)
 
 ## Blake Bennett: (How to get it and install)
+![Profile picture](me.jpg)
 - Prerequisites
 
   A text Editor (Preferably Notepadd++ or Visual Studio Code, I use VSC)<br/>
