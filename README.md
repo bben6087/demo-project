@@ -19,6 +19,10 @@
   4. Click on new porject and follow the directions<br/>
   5. Once created click add an web app in your project<br/>
   6. Add the required SDK in your HTML in your text editor<br/>
+ 
+- Code Contribution 
+
+  [Code Commit](https://github.com/bben6087/demo-project/commit/62f0ac7a759f10a0bbe065521d1ad0e43cbfcb36)
   
 
 ## Samuel Ritter: (Develop)
