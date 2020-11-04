@@ -8,15 +8,15 @@
 ![Profile picture](me.jpg)
 - Prerequisites
 
-  A text Editor (Preferably Notepadd++ or Visual Studio Code, I use VSC)<br/>
+  A text Editor (Preferably Notepad++ or Visual Studio Code, I use VSC)<br/>
   A working html website (Does not have to be hosted)<br/>
   A Google account (You must sign in to Google to access Firebase)
 - Process
 
    1. Go to https://firebase.google.com/<br/>
   2. Login to your Google account<br/>
-  3. Once logged in click on Console in the upper left hand corner of the page<br/>
-  4. Click on new porject and follow the directions<br/>
+  3. Once logged in click on Console in the upper right hand corner of the page<br/>
+  4. Click on new project and follow the directions<br/>
   5. Once created click add an web app in your project<br/>
   6. Add the required SDK in your HTML in your text editor<br/>
  
@@ -24,6 +24,9 @@
 
   [Code Commit](https://github.com/bben6087/demo-project/commit/62f0ac7a759f10a0bbe065521d1ad0e43cbfcb36)
   
+- Link to demonstration video
+
+[Demonstration Video](https://use.vg/wVMweJ)
 
 ## Samuel Ritter: (Develop)
 
