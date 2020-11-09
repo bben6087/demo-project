@@ -37,6 +37,7 @@
 - Text editor
 - Hosted website (I use Firebase hosting)
 - Linked Firebase app
+- Node.js npm (not required, used to install first input delay library)
 
 ### Process
 1. Go to https://firebase.google.com/docs/perf-mon/get-started-web?authuser=1
@@ -44,6 +45,12 @@
 3. Reload hosted website with updated index.html file
 4. Inspect element, go to Network tab
 5. If there is a network call to firebaselogging.googleapis.com, then Firebase is collecting performance data from your site
+
+### Commands used
+- [Code Commit](https://github.com/bben6087/demo-project/commit/84dffe9ff805af7b329379609d96d4257d2a9ef3)
+
+### Demonstration Video
+- [Youtube Link](https://youtu.be/QpNauMLp6AA)
 
 
 ## Sources
