@@ -31,6 +31,20 @@
 ## Samuel Ritter: (Develop)
 
 ## Zach Watson: (Performance)
+![Profile picture](zach.jpg)
+
+### Prerequisites
+- Text editor
+- Hosted website (I use Firebase hosting)
+- Linked Firebase app
+
+### Process
+1. Go to https://firebase.google.com/docs/perf-mon/get-started-web?authuser=1
+2. Follow the directions to copy and paste Firebase SDK code into your index.html file
+3. Reload hosted website with updated index.html file
+4. Inspect element, go to Network tab
+5. If there is a network call to firebaselogging.googleapis.com, then Firebase is collecting performance data from your site
+
 
 ## Sources
 - 44563 Syllabus page by Dr. Denise Case: (We are using it for examples with Firebase and if Firebase works we could push it to her syllabus page repo)
