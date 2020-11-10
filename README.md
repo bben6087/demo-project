@@ -30,6 +30,8 @@
 
 ## Samuel Ritter: (Develop)
 
+Instructions and code at https://github.com/SRitt12/firebase-demo
+
 ## Zach Watson: (Performance)
 ![Profile picture](zach.jpg)
 
