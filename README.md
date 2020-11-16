@@ -32,6 +32,8 @@
 
 Instructions and code at https://github.com/SRitt12/firebase-demo
 
+Video: https://app.vidgrid.com/view/PoEL5ONhLPXe
+
 ## Zach Watson: (Performance)
 ![Profile picture](zach.jpg)
 
