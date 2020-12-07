@@ -18,11 +18,11 @@
   
 - Code Contribution 
 
-  [Code Commit]
+  [Code Commit]https://github.com/bben6087/demo-project/commit/dd6844e6e6528bd2b01d0e7c09214b12aabe2f09
   
 - Link to demonstration video
 
-[Demonstration Video]
+  [Demonstration Video]
 
 ## Blake Bennett: (How to get it and install)
 ![Profile picture](me.jpg)
