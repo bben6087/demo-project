@@ -2,7 +2,27 @@
 
 ## Firebase
 
-## Stephen Burke: (Functions)
+## Stephen Burke: (Analytics)
+- Prerequisites
+  A web browser <br/>
+  A working html site <br/>
+  A google account <br/>
+  
+- Process
+  
+  1. Go to https://firebase.google.com/ <br/>
+  2. Login to your Google account <br/>
+  3. Click on project tab <br/>
+  4. Scroll over to analyics on the sidebar <br/>
+  5. Click on dashboard button <br/>
+  
+- Code Contribution 
+
+  [Code Commit]
+  
+- Link to demonstration video
+
+[Demonstration Video]
 
 ## Blake Bennett: (How to get it and install)
 ![Profile picture](me.jpg)
