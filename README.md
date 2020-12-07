@@ -10,7 +10,7 @@
   
 - Process
   
-  1. Go to https://firebase.google.com/ <br/>
+  1. Go to https://console.firebase.google.com/ <br/>
   2. Login to your Google account <br/>
   3. Click on project tab <br/>
   4. Scroll over to analyics on the sidebar <br/>
